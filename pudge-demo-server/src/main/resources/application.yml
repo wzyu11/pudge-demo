@@ -1,0 +1,9 @@
+pudge:
+  server:
+    services:
+      - name: pudge-demo-svc
+        port: 2333
+        thread-pool-size: 10
+
+server:
+  port: 9999

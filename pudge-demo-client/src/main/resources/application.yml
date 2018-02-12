@@ -1,0 +1,9 @@
+server:
+  port: 9998
+
+pudge:
+  client:
+    services:
+      - service-name: pudge-demo-svc
+        url: localhost:2333
+    pool-enabled: false
